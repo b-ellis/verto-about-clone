@@ -1,0 +1,59 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    font-size: 2rem;
+    font-family: Lato,sans-serif;
+    box-shadow: 0 0 10px #d3d3d3;
+    color: #404040;
+
+    .logo{
+        text-decoration: none;
+        font-size: 3rem;
+        letter-spacing: 1rem;
+        font-weight: 700;
+        color: #4d94ff
+    }
+
+    .sell{
+        padding: 1rem 2rem;
+        font-size: 1.75rem;
+        color: #404040;
+        background: #bfbfbf4d;
+        border-radius: 4rem;
+        letter-spacing: .15rem;
+        font-weight: 400;
+        text-decoration: none;
+        transition: background .2s;
+        
+        &:hover{
+            cursor: pointer;
+            color: #fff;
+            background: #4d94ff;
+        }
+    }
+
+    .login{
+        padding: 1rem 2rem;
+        border-radius: 4rem;
+        font-size: 1.75rem;
+        font-weight: 400;
+        background: #4d94ff;
+        margin: 0 1rem;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        letter-spacing: .15rem;
+        font-family: Lato,sans-serif;
+        transition: background .2s;
+
+        &:hover{
+            background: #386ebf;
+        }
+    }
+
+    @media (max-width: 37.5em){
+        padding: 1rem;
+    }
+}

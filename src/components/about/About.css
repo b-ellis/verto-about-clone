@@ -1,0 +1,62 @@
+.about {
+  margin-bottom: 5rem;
+  padding: 5rem 26rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 75vh; }
+  .about .description {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2rem;
+    margin-bottom: 4rem;
+    justify-items: center;
+    align-items: center; }
+    .about .description h1 {
+      font-size: 5rem;
+      text-align: left;
+      color: #4d94ff;
+      text-transform: uppercase;
+      font-weight: 700; }
+    .about .description p {
+      font-size: 2rem;
+      text-align: justify;
+      line-height: 3rem;
+      font-weight: 200; }
+  .about .card-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+  @media (max-width: 75em) {
+    .about {
+      padding: 5rem 10rem; }
+      .about .description {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5rem 1fr; }
+        .about .description h1 {
+          font-size: 4.25rem; } }
+  @media (max-width: 62.5em) {
+    .about {
+      padding: 5rem 5rem; } }
+  @media (max-width: 50em) {
+    .about {
+      padding: 5rem 2rem; } }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 13rem;
+  height: 13rem;
+  margin: 1rem;
+  padding: 1rem;
+  background: #4d93ff;
+  text-align: center;
+  border-radius: 4rem;
+  color: #fff; }
+  .card i {
+    font-size: 4rem;
+    margin: 0 auto; }
+  .card span {
+    font-size: 2.5rem;
+    font-weight: 300; }

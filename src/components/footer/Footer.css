@@ -1,0 +1,59 @@
+.join {
+  background: #4d93ff;
+  padding: 10rem 0;
+  width: 100%;
+  color: #fff; }
+  .join h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 1rem; }
+  .join h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem; }
+  .join input {
+    padding: 2rem;
+    font-size: 1.5rem;
+    outline: none;
+    border-radius: 1rem;
+    width: 20rem;
+    border: none; }
+  .join button {
+    padding: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: 1px solid #404040;
+    color: #404040;
+    cursor: pointer;
+    transition: background .2s; }
+    .join button:hover {
+      background: #386ebf;
+      border: 1px solid #386ebf;
+      color: #fff; }
+
+.site-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding: 3rem 0; }
+  .site-nav .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    color: #404040; }
+    .site-nav .navigation span {
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 2rem; }
+    .site-nav .navigation a {
+      font-size: 2rem;
+      font-weight: 300;
+      text-decoration: none;
+      color: #404040;
+      line-height: 3rem; }
